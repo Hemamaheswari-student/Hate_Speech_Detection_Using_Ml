@@ -1,3 +1,28 @@
+# 🛡️ Hate Speech Detection System using Machine Learning
+
+This project is a web-based Hate Speech Detection System built with **Python**, **Flask**, and **Bootstrap**. It uses a trained machine learning model to classify whether a given piece of text contains hate speech or not. The system is designed to be simple, responsive, and easily deployable.
+
+---
+
+## 🚀 Features
+
+- 🔍 Detects hate speech from user-input text
+- 🧠 Integrated with a trained ML model (`best_model.pkl`)
+- 🌐 Responsive user interface using HTML, CSS, and Bootstrap
+- 🛠️ Flask backend for handling requests and predictions
+- 💬 Real-time prediction results
+
+---
+
+## 🧠 Machine Learning Model
+
+- Developed and trained in Jupyter Notebook
+- Uses  SGDClassifier[insert algorithm used, e.g., Logistic Regression, SVM, etc.]
+- Saved using `joblib` as `best_model.pkl`
+
+---
+
+## 📁 Project Structure
 #here we are using the Flask python webframework
 #Before Executing the project the project structure should be like the mentioned below
 hate_speech_app/------>(projectfolder)
@@ -29,3 +54,9 @@ hate_speech_app/------>(projectfolder)
 #run our Flask app inside that environment
 ----->python app.py
 Open browser and visit http://127.0.0.1:5000
+<------Example------->
+Input:
+You are such an idiot!
+
+Output:
+Hate Speech
